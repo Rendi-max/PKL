@@ -16,7 +16,7 @@
                 text
                 class="orange white--text"
                 >Login</v-btn>
-            </v-app-bar>
+        </v-app-bar>
         <v-img :src="require('~/assets/a01.png')" >
             <v-main>
                 <Nuxt />

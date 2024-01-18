@@ -1,0 +1,32 @@
+<template>
+<nav class="border-b-2 border-yellow-400">
+  <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+    <div class="relative flex h-16 items-center justify-between">
+      <div class="flex flex-1 sm:items-stretch sm:justify-start">
+        <div class="flex flex-shrink-0 items-center">
+          
+        </div>
+        <div class=" sm:ml-6 sm:block">
+          <div class="flex space-x-4">
+            <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+            <a href="#" class="font-extrabold text-white rounded-md px-3 py-3 text-3xl" aria-current="page">Rendi</a>
+           
+          </div>
+        </div>
+      </div>
+      <div class="absolute inset-y-0 right-0 sm:justify-center flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+            <a href="#home" class="text-white active:text-yellow-400 active:border-b-yellow-400 active:border-b-2 hover:border-b-yellow-400 hover:border-b-2 hover:text-white px-4 py-2 text-sm sm:text-xl">Home</a>
+            <a href="#about" class="text-white active:text-yellow-400 active:border-b-yellow-400 active:border-b-2 hover:border-b-yellow-400 hover:border-b-2 hover:text-white px-4 py-2 text-sm sm:text-xl">About</a>
+            <a href="#resume" class="text-white active:text-yellow-400 active:border-b-yellow-400 active:border-b-2 hover:border-b-yellow-400 hover:border-b-2 hover:text-white px-4 py-2 text-sm sm:text-xl">Resume</a>
+            <a href="#project" class="text-white active:text-yellow-400 active:border-b-yellow-400 active:border-b-2 hover:border-b-yellow-400 hover:border-b-2 hover:text-white px-4 py-2 text-sm sm:text-xl">Project</a>
+            <a href="#contact" class="text-white active:text-yellow-400 active:border-b-yellow-400 active:border-b-2 hover:border-b-yellow-400 hover:border-b-2 hover:text-white px-4 py-2 text-sm sm:text-xl">Contact</a>
+      </div>
+    </div>
+  </div>
+</nav>
+</template>
+<script>
+    export default{
+        name:'navbar'
+    }
+</script>
