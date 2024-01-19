@@ -1,6 +1,6 @@
 <template>
     <div class="d-flex mt-10 sm:p-20 pb-16 ">
-        <div id="project" class="text-center">
+        <div id="contact" class="text-center">
             <h2 class="text-white mb-6 text-3xl text- sm:text-5xl font-extrabold hover:text-purple-500  shadow-lg">Contact Me</h2>
             <h1 class="text-xl font-semibold text-gray-500 mx-auto mb-12 w-[500px] sm:w-[1000px]  my-5">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</h1>
            
