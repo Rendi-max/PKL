@@ -2,7 +2,7 @@
     <div class="d-flex mt-10 sm:p-20 pb-16 ">
         <div id="contact" class="text-center">
             <h2 class="text-white mb-6 text-3xl text- sm:text-5xl font-extrabold hover:text-purple-500  shadow-lg">Contact Me</h2>
-            <h1 class="text-xl font-semibold text-gray-500 mx-auto mb-12 w-[500px] sm:w-[1000px]  my-5">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</h1>
+            <h1 class="sm:text-xl text-lg font-semibold text-gray-500 mx-auto w-[400px] sm:w-[1000px]  my-5">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</h1>
            
             <div class="flex flex-wrap justify-evenly">
                 <div class="h-[200px] w-[200px] space-y-4 rounded-3xl my-2 bg-slate-700 hover:border-2 hover:border-purple-400 text-white text-center p-5">
@@ -76,7 +76,7 @@
                     </div>
                 </div>
 
-                <div class="space-y-2 w-[500px] sm:w-[250px] my-2">
+                <div class="space-y-2 w-[450px] sm:w-[250px] my-2">
                     <h2 class="text-xl my-4 font-bold text-white">Links</h2>
                     <p class="text-lg flex text-slate-300">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="26" fill="currentColor" class="bi bi-caret-right me-2" viewBox="0 0 16 16">
@@ -110,7 +110,7 @@
                     </p>
                 </div>
                 
-                <div class="space-y-2 w-[500px] sm:w-[250px] my-2">
+                <div class="space-y-2 w-[450px] sm:w-[250px] my-2">
                     <h2 class="text-xl my-4 font-bold text-white">Services</h2>
                     <p class="text-lg flex text-slate-300">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="26" fill="currentColor" class="bi bi-caret-right me-2" viewBox="0 0 16 16">
@@ -143,7 +143,7 @@
                         Graphic Design
                     </p>
                 </div>
-                <div class="space-y-2 w-[500px] sm:w-[250px] my-2">
+                <div class="space-y-2 w-[450px] sm:w-[250px] my-2">
                     <h2 class="text-xl my-4 font-bold text-white">Have a Question?</h2>
                     <div class="text-lg flex text-slate-300">
                         <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-geo-alt-fill me-2" viewBox="0 0 16 16">

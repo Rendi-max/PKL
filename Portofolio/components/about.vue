@@ -1,5 +1,5 @@
 <template>
-    <div class=" flex flex-wrap mt-10 lg:p-20 pb-16 border-b-2 border-yellow-400">
+    <div class="d-flex flex-wrap mt-10 lg:p-20 pb-16 border-b-2 border-yellow-400">
         <div id="about" class="lg:columns-2">
             <img src="../assets/alamak.jpg" alt="Rendi Firman Syah" class="scale-75 rounded-3xl lg:scale-75">
             <div class="text-white mx-auto lg:mx-0 px-10 lg:px-0 lg:py-14" style="width: 500px;">

@@ -1,5 +1,5 @@
 <template>
-<nav class="border-b-2 border-yellow-400 sticky top-1">
+<nav class="border-b-2 border-yellow-400 sticky top-0 z-50">
   <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
     <div class="relative flex h-16 items-center justify-between">
       <div class="flex flex-1 sm:items-stretch sm:justify-start">
