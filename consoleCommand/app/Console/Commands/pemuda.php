@@ -42,20 +42,19 @@ class Pemuda extends Command
      * @return mixed
      */
     public function handle()
-    {
-        
+    {    
        $faker = Faker::create();
        $kodeWilayah = Wilayah::all();
        for($i = 1 ; $i <= $this->argument('number'); $i++){
         $wilayahID = $kodeWilayah[rand(0,sizeof($kodeWilayah)-1)];
            $data = [
-                'nama' => $faker->name(),
+                'nama' => 'dummy '.$faker->name(),
                 'wilayah_id' => $wilayahID->kode,
-                'alamat' => 'random text ngga harus sesuai sama wilayah',
-                'nomor_telepon' => '08'.rand(0000000000, 9999999999),
+                'alamat' => $faker->address(),
+                'nomor_telepon' => $faker->phoneNumber(),
                 'email' => $faker->email(),
                 'status' => random_int(1,2),
-                'tanggal_bergabung' => Carbon::yesterday()->subDays(rand(0, 365)),
+                'tanggal_bergabung' => $faker->dateTimeBetween('-4 year'),
            ];
            ModelsPemuda::create($data);
        }
