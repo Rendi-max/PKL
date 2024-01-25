@@ -139,7 +139,6 @@ export default {
     data:() =>({
         valid:true,
         items: ['X PPLG 1', 'X PPLG 2', 'XI PPLG 1', 'XI PPLG 2', 'XII PPLG 1', 'XII PPLG 2'],
-        value: ['X PPLG 1', 'X PPLG 2', 'XI PPLG 1', 'XI PPLG 2', 'XII PPLG 1', 'XII PPLG 2'],
         submits:false,
         Nis:'',
         nisRules:[
@@ -164,7 +163,7 @@ export default {
         ],
         resetDisable : true,
         student:{
-            nis : '',
+            nis : null,
             name : '',
             class : null,
             address : '',
@@ -174,13 +173,13 @@ export default {
     methods:{
         submit(){
             this.submits = true;
-            alert("Jadi Njir")
             this.resetDisable = false;
             this.student.nis = this.Nis;
             this.student.name = this.Name;
             this.student.class = this.Class;
             this.student.address = this.Address;
             this.student.phone = this.Phone;
+            alert("Jadi Njir")
         },
         reset(){
             this.$refs.form.reset();
@@ -191,7 +190,9 @@ export default {
             this.Phone="";
             this.submits = false;
             this.resetDisable = true;
-            alert('Alamak Kehapus')
+            setTimeout(() => {
+                alert('Alamak Kehapus')
+            }, 2000);
         }
     }
 }
