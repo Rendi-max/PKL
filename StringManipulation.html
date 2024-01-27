@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="" style="text-align: center; margin-top: 200px;">
+        <h2 style="margin-bottom: 20px;">String manipulation</h2>
+        <input id="text" type="text">
+        <button class="manipulation" onclick="manipulations()">Check</button>
+        <p style="margin-top: 10px;" class="">Result:</p>
+        <p style="margin-top: 10px;" id="result" class=""></p>
+    </div>
+</body>
+</html>
+
+<script>
+
+    var hasil = document.getElementById("result")
+    var text = document.getElementById("text")
+
+    function manipulations() {
+        var result = kalimat(text.value)
+        hasil.innerText = result
+    }
+
+    function kalimat(klmt){
+        let str = klmt.split(" ")
+        function check(data){
+            var kata =  data.split("")
+            const vocal = ["a", "i", "u", "e", "o"]
+            let err = "";
+            if(vocal.includes(kata[0])){
+                return kata.join("")
+            }else{
+                for(let i = 1 ; i < kata.length ; i++ ){
+                    err += kata[i]
+                }
+                err += kata[0]
+                err += "Nyo"
+                return err
+            }
+        }
+
+        let mapping = str.map(check)
+        let hasil = mapping.join(" ")
+        return hasil
+    }
+
+</script>
