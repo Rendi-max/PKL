@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="" style="text-align: center; margin-top: 100px;">
+        <h2>Weird Multiply</h2>
+        <input type="number" name="" id="number">
+        <button onclick="cobain()">Coba</button>
+        <p>Result: <span id="hasil"></span></p>
+    </div>
+</body>
+</html>
+
+
+<script>
+
+    var numbers = document.getElementById("number")
+    var results = document.getElementById("hasil")
+
+    function cobain(){
+        let hasil = math(numbers.value)
+        results.innerText = hasil
+    }
+
+    function math(data){
+        
+        let newData = data
+        let iteration = 0
+        if (data.length == 1) {
+            return angka
+        } else {
+            do{
+                iteration++;
+
+                let angka = Array.from(String(newData)).map(Number).filter(num => !isNaN(num))
+                var perkalian = angka.reduce((accumulator, currentValue) => accumulator * currentValue, 1)
+                newData = String(perkalian)
+            } while (newData.length > 1 ) 
+            return newData
+        }
+    }
+
+</script>
