@@ -35,7 +35,6 @@
         } else {
             do{
                 iteration++;
-
                 let angka = Array.from(String(newData)).map(Number).filter(num => !isNaN(num))
                 var perkalian = angka.reduce((accumulator, currentValue) => accumulator * currentValue, 1)
                 newData = String(perkalian)
