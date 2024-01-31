@@ -5,11 +5,11 @@
         elevation ="0"
         >
                 <v-img :src="require('~/assets/00b.png')" max-height="60"
-                    max-width="100"> </v-img>
+                    max-width="130"> </v-img>
                 <v-spacer />
-                <a href="" class="grey--text font-weight-bold text-decoration-none">Taksonomi</a>
-                <a href="" class="grey--text font-weight-bold text-decoration-none mx-4">Forum</a>
-                <a href="" class="grey--text font-weight-bold text-decoration-none me-4">FAQ</a>
+                <nuxt-link to="/taksonomi" class="grey--text font-weight-bold text-decoration-none">Taksonomi</nuxt-link>
+                <nuxt-link to="/forum" class="grey--text mx-4 font-weight-bold text-decoration-none">Forum</nuxt-link>
+                <nuxt-link to="/faq" class="grey--text me-4 font-weight-bold text-decoration-none">FAQ</nuxt-link>
                 <v-btn
                 elevation="2"
                 outlined
