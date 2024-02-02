@@ -1,6 +1,6 @@
 <template>
-    <div class="d-flex mt-10 lg:p-20 pb-16 border-b-2 border-yellow-400">
-        <div id="resume" class="text-center">
+    <div id="resume" class="d-flex mt-10 lg:p-20 pb-16 border-b-2 border-yellow-400">
+        <div class="text-center">
             <h2 class="text-white mb-6 text-3xl text- lg:text-5xlfont-extrabold hover:text-purple-500  shadow-lg">Resume</h2>
             <h1 class="sm:text-xl text-lg font-semibold text-gray-500 mx-auto w-[400px] sm:w-[1000px]  my-5">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</h1>
             <div class="flex flex-wrap justify-evenly">

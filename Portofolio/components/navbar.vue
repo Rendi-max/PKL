@@ -15,20 +15,21 @@
         </div>
       </div>
       <div class="absolute inset-y-0 right-0 sm:justify-center flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-            <a href="#home" class="text-white active:text-yellow-400 active:border-b-yellow-400 active:border-b-2 hover:border-b-yellow-400 hover:border-b-2 hover:text-white px-4 py-2 text-sm sm:text-xl">Home</a>
-            <a href="#about" class="text-white active:text-yellow-400 active:border-b-yellow-400 active:border-b-2 hover:border-b-yellow-400 hover:border-b-2 hover:text-white px-4 py-2 text-sm sm:text-xl">About</a>
-            <a href="#resume" class="text-white active:text-yellow-400 active:border-b-yellow-400 active:border-b-2 hover:border-b-yellow-400 hover:border-b-2 hover:text-white px-4 py-2 text-sm sm:text-xl">Resume</a>
-            <a href="#project" class="text-white active:text-yellow-400 active:border-b-yellow-400 active:border-b-2 hover:border-b-yellow-400 hover:border-b-2 hover:text-white px-4 py-2 text-sm sm:text-xl">Project</a>
-            <a href="#contact" class="text-white active:text-yellow-400 active:border-b-yellow-400 active:border-b-2 hover:border-b-yellow-400 hover:border-b-2 hover:text-white px-4 py-2 text-sm sm:text-xl">Contact</a>
+            <NuxtLink to="#home" class="text-white active:text-yellow-400 active:border-b-yellow-400 active:border-b-2 hover:border-b-yellow-400 hover:border-b-2 hover:text-white px-4 py-2 text-sm sm:text-xl">Home</NuxtLink>
+            <NuxtLink to="#about" class="text-white active:text-yellow-400 active:border-b-yellow-400 active:border-b-2 hover:border-b-yellow-400 hover:border-b-2 hover:text-white px-4 py-2 text-sm sm:text-xl">About</NuxtLink>
+            <NuxtLink to="#resume" class="text-white active:text-yellow-400 active:border-b-yellow-400 active:border-b-2 hover:border-b-yellow-400 hover:border-b-2 hover:text-white px-4 py-2 text-sm sm:text-xl">Resume</NuxtLink>
+            <NuxtLink to="#project" class="text-white active:text-yellow-400 active:border-b-yellow-400 active:border-b-2 hover:border-b-yellow-400 hover:border-b-2 hover:text-white px-4 py-2 text-sm sm:text-xl">Project</NuxtLink>
+            <NuxtLink to="#contact" class="text-white active:text-yellow-400 active:border-b-yellow-400 active:border-b-2 hover:border-b-yellow-400 hover:border-b-2 hover:text-white px-4 py-2 text-sm sm:text-xl">Contact</NuxtLink>
       </div>
     </div>
   </div>
 </nav>
 </template>
 <script>
+    
     export default{
         name:'navbar',
-
+       
     }
 
 </script>

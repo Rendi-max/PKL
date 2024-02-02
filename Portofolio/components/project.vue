@@ -1,6 +1,6 @@
 <template>
-    <div class="d-flex mt-10 lg:p-20 pb-16 border-b-2 border-yellow-400">
-        <div id="project" class="text-center">
+    <div id="project" class="d-flex mt-10 lg:p-20 pb-16 border-b-2 border-yellow-400">
+        <div class="text-center">
             <h2 class="text-white mb-6 text-3xl text- lg:text-5xl font-extrabold hover:text-purple-500  shadow-lg">Project</h2>
             <h1 class="text-xl font-semibold text-gray-500 my-5">Alamak random kali foto ni</h1>
             <div class="flex justify-evenly  my-4">

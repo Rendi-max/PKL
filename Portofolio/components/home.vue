@@ -1,6 +1,6 @@
 <template>
-    <div class="d-flex flex-wrap mt-10 border-b-2 border-yellow-400 lg:p-20">
-        <div id="home" class="lg:columns-2">
+    <div id="home" class="d-flex flex-wrap border-b-2 border-yellow-400 lg:p-20">
+        <div class="lg:columns-2">
             <div class=" text-center lg:mt-28 lg:text-start">
                 <h3 class="text-yellow-400">Hello!</h3>
                 <h1 class="lg:text-5xl mx-auto lg:mx-0 space-x-3 text-center lg:text-start my-4 text-3xl font-bold text-yellow-400" style="width: 300px;"><span class="text-white">I'm</span> Rendi Firman Syah</h1>
