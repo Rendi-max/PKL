@@ -2,7 +2,7 @@
     <div id="contact" class="d-flex mt-10 sm:p-20 pb-16 ">
         <div class="text-center">
             <h2 class="text-white mb-6 text-3xl text- sm:text-5xl font-extrabold hover:text-purple-500  shadow-lg">Contact Me</h2>
-            <h1 class="sm:text-xl text-lg font-semibold text-gray-500 mx-auto w-[400px] sm:w-[1000px]  my-5">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</h1>
+            <h1 class="sm:text-xl text-sm font-semibold text-gray-500 mx-auto w-[250px] sm:w-[1000px]  my-5">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</h1>
            
             <div class="flex flex-wrap justify-evenly">
                 <div class="h-[200px] w-[200px] space-y-4 rounded-3xl my-2 bg-slate-700 hover:border-2 hover:border-purple-400 text-white text-center p-5">
@@ -47,22 +47,22 @@
 
            <div class="flex flex-wrap justify-center space-y-4 ">
                 <img src="../assets/profile.jpg" class=" hidden sm:w-[500px] sm:block sm:h-[500px] rounded-s-3xl mt-4" alt="">
-                <div class="w-[500px] h-[500px] py-10 px-2 bg-slate-300 rounded-3xl sm:rounded-none sm:rounded-e-3xl">
+                <div class="sm:w-[500px] sm:h-[500px] w-[330px] h-[350px] py-10 px-2 bg-slate-300  rounded-3xl sm:rounded-none sm:rounded-e-3xl">
                        <div class="space-y-4">
-                            <input type="text" class="px-2 h-[50px] w-[400px] rounded-lg border border-gray-500 hover:border-purple-400" placeholder="Your Name">
-                            <input type="text" class="px-2 h-[50px] w-[400px] rounded-lg border border-gray-500 hover:border-purple-400" placeholder="Your Email">
-                            <input type="text" class="px-2 h-[50px] w-[400px] rounded-lg border border-gray-500 hover:border-purple-400" placeholder="Subject">
-                            <textarea name="" id="" cols="52" rows="7" class="rounded-lg border border-gray-500 hover:border-purple-400"></textarea>
-                            <button class="bg-yellow-400 py-3 px-5 text-white font-semibold rounded-3xl hover:border hover:border-purple-400">Send Message</button>
+                            <input type="text" class="px-2 w-[250px] h-[30px] sm:h-[50px] sm:w-[400px] rounded-lg border border-gray-500 hover:border-purple-400" placeholder="Your Name">
+                            <input type="text" class="px-2 w-[250px] h-[30px] sm:h-[50px] sm:w-[400px] rounded-lg border border-gray-500 hover:border-purple-400" placeholder="Your Email">
+                            <input type="text" class="px-2 w-[250px] h-[30px] sm:h-[50px] sm:w-[400px] rounded-lg border border-gray-500 hover:border-purple-400" placeholder="Subject">
+                            <textarea name="" id="" cols="34" rows="5" class="rounded-lg border px-2 sm:text-lg sm:w-[400px] border-gray-500 text-sm hover:border-purple-400" placeholder="Message"></textarea>
+                            <button class="bg-yellow-400 sm:py-3 py-1 px-4 sm:px-5 text-white font-semibold rounded-3xl hover:border hover:border-purple-400">Send Message</button>
                        </div>
                 </div>
-                <img src="../assets/profile.jpg" class=" block w-[500px] sm:hidden sm:h-0 sm:w-0 h-[500px] rounded-3xl" alt="">
+                <img src="../assets/profile.jpg" class=" block w-[330px] sm:hidden sm:h-0 sm:w-0 h-[330px] rounded-3xl" alt="">
            </div>
 
            <div class="flex flex-wrap justify-center  mt-10 sm:p-20 px-8 sm:px-0 sm:space-x-4 pb-16 text-start">
-                <div class="space-y-7 sm:w-[250px] my-2">
-                    <h2 class="text-xl my-4 font-bold text-white">About</h2>
-                    <p class="text-lg text-slate-300">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                <div class="space-y-7  sm:w-[250px] my-2">
+                    <h2 class="text-sm sm:text-xl my-4 font-bold text-white">About</h2>
+                    <p class="sm:text-lg text-sm text-slate-300">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                     <div class="flex justify-start space-x-4">
                         <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-facebook text-white" viewBox="0 0 16 16">
                         <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
@@ -76,33 +76,33 @@
                     </div>
                 </div>
 
-                <div class="space-y-2 w-[450px] sm:w-[250px] my-2">
-                    <h2 class="text-xl my-4 font-bold text-white">Links</h2>
-                    <p class="text-lg flex text-slate-300">
+                <div class="space-y-2 w-[300px] sm:w-[250px] my-2">
+                    <h2 class="text-sm sm:text-xl my-4 font-bold text-white">Links</h2>
+                    <p class="sm:text-lg text-sm flex text-slate-300">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="26" fill="currentColor" class="bi bi-caret-right me-2" viewBox="0 0 16 16">
                             <path d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753"/>
                         </svg>
                         Home
                     </p>
-                    <p class="text-lg flex text-slate-300">
+                    <p class="sm:text-lg text-sm flex text-slate-300">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="26" fill="currentColor" class="bi bi-caret-right me-2" viewBox="0 0 16 16">
                             <path d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753"/>
                         </svg>
                         About
                     </p>
-                    <p class="text-lg flex text-slate-300">
+                    <p class="sm:text-lg text-sm flex text-slate-300">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="26" fill="currentColor" class="bi bi-caret-right me-2" viewBox="0 0 16 16">
                             <path d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753"/>
                         </svg>
                         Resume
                     </p>
-                    <p class="text-lg flex text-slate-300">
+                    <p class="sm:text-lg text-sm flex text-slate-300">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="26" fill="currentColor" class="bi bi-caret-right me-2" viewBox="0 0 16 16">
                             <path d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753"/>
                         </svg>
                         Project
                     </p>
-                    <p class="text-lg flex text-slate-300">
+                    <p class="sm:text-lg text-sm flex text-slate-300">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="26" fill="currentColor" class="bi bi-caret-right me-2" viewBox="0 0 16 16">
                             <path d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753"/>
                         </svg>
@@ -110,54 +110,54 @@
                     </p>
                 </div>
                 
-                <div class="space-y-2 w-[450px] sm:w-[250px] my-2">
-                    <h2 class="text-xl my-4 font-bold text-white">Services</h2>
-                    <p class="text-lg flex text-slate-300">
+                <div class="space-y-2 w-[300px] sm:w-[250px] my-2">
+                    <h2 class="text-sm sm:text-xl my-4 font-bold text-white">Services</h2>
+                    <p class="sm:text-lg text-sm flex text-slate-300">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="26" fill="currentColor" class="bi bi-caret-right me-2" viewBox="0 0 16 16">
                             <path d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753"/>
                         </svg>
                         Web Design
                     </p>
-                    <p class="text-lg flex text-slate-300">
+                    <p class="sm:text-lg text-sm flex text-slate-300">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="26" fill="currentColor" class="bi bi-caret-right me-2" viewBox="0 0 16 16">
                             <path d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753"/>
                         </svg>
                         Web Development
                     </p>
-                    <p class="text-lg flex text-slate-300">
+                    <p class="sm:text-lg text-sm flex text-slate-300">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="26" fill="currentColor" class="bi bi-caret-right me-2" viewBox="0 0 16 16">
                             <path d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753"/>
                         </svg>
                         Bussines Strategy
                     </p>
-                    <p class="text-lg flex text-slate-300">
+                    <p class="sm:text-lg text-sm flex text-slate-300">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="26" fill="currentColor" class="bi bi-caret-right me-2" viewBox="0 0 16 16">
                             <path d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753"/>
                         </svg>
                         Data Analysis
                     </p>
-                    <p class="text-lg flex text-slate-300">
+                    <p class="sm:text-lg text-sm flex text-slate-300">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="26" fill="currentColor" class="bi bi-caret-right me-2" viewBox="0 0 16 16">
                             <path d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753"/>
                         </svg>
                         Graphic Design
                     </p>
                 </div>
-                <div class="space-y-2 w-[450px] sm:w-[250px] my-2">
-                    <h2 class="text-xl my-4 font-bold text-white">Have a Question?</h2>
-                    <div class="text-lg flex text-slate-300">
+                <div class="space-y-2 w-[300px] sm:w-[250px] my-2">
+                    <h2 class="text-sm sm:text-xl my-4 font-bold text-white">Have a Question?</h2>
+                    <div class="sm:text-lg text-sm flex text-slate-300">
                         <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-geo-alt-fill me-2" viewBox="0 0 16 16">
                         <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
                         </svg>
                         Adipasir RT07/RW02, Rakit, Banjarnegara
                     </div>
-                    <div class="text-lg flex text-slate-300">
+                    <div class="sm:text-lg text-sm flex text-slate-300">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-telephone me-2" viewBox="0 0 16 16">
                         <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
                         </svg>
                        +62 858 7060 3466
                     </div>
-                    <div class="text-lg flex text-slate-300">
+                    <div class="sm:text-lg text-sm flex text-slate-300">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope me-3" viewBox="0 0 16 16">
                         <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
                         </svg>
@@ -166,7 +166,7 @@
                 </div>
 
             </div>
-            <h2 class="text-xl my-4 text-white">Copyright @2024 Created by Rendi Firman Syah</h2>
+            <h2 class="text-sm sm:text-xl my-4 text-white">Copyright @2024 Created by Rendi Firman Syah</h2>
         </div>
     </div>
 </template>
