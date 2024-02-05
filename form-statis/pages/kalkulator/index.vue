@@ -64,19 +64,19 @@
             <div class="d-flex justify-center my-2">
                 <v-btn
                 class="mx-2"
-                @click="btn1"
+                @click="result += '1'"
                 >
                     1
                 </v-btn>
                 <v-btn
                 class="mx-2"
-                @click="btn2"
+                @click="result += '2'"
                 >
                     2
                 </v-btn>
                 <v-btn
                 class="mx-2"
-                @click="btn3"
+                @click="result += '3'"
                 >
                     3
                 </v-btn>
@@ -90,19 +90,19 @@
             <div class="d-flex justify-center my-2">
                 <v-btn
                 class="mx-2"
-                @click="btn4"
+                @click="result += '4'"
                 >
                     4
                 </v-btn>
                 <v-btn
                 class="mx-2"
-                @click="btn5"
+                @click="result += '5'"
                 >
                     5
                 </v-btn>
                 <v-btn
                 class="mx-2"
-                @click="btn6"
+                @click="result += '6'"
                 >
                     6
                 </v-btn>
@@ -116,19 +116,19 @@
             <div class="d-flex justify-center my-2">
                 <v-btn
                 class="mx-2"
-                @click="btn7"
+                @click="result += '7'"
                 >
                     7
                 </v-btn>
                 <v-btn
                 class="mx-2"
-                @click="btn8"
+                @click="result += '8'"
                 >
                     8
                 </v-btn>
                 <v-btn
                 class="mx-2"
-                @click="btn9"
+                @click="result += '9'"
                 >
                     9
                 </v-btn>
@@ -148,7 +148,7 @@
                 </v-btn>
                 <v-btn
                 class="mx-2"
-                @click="btn0"
+                @click="result += '0'"
                 >
                     0
                 </v-btn>
@@ -188,36 +188,6 @@
                 this.operator = null;
                 this.result = "";
                 this.hasil = null;
-            },
-            btn0(){
-                this.result += "0";
-            },
-            btn1(){
-                this.result += "1";
-            },
-            btn2(){
-                this.result += "2";
-            },
-            btn3(){
-                this.result += "3";
-            },
-            btn4(){
-                this.result += "4";
-            },
-            btn5(){
-                this.result += "5";
-            },
-            btn6(){
-                this.result += "6";
-            },
-            btn7(){
-                this.result += "7";
-            },
-            btn8(){
-                this.result += "8";
-            },
-            btn9(){
-                this.result += "9";
             },
             operatorKali(){
                 this.angka1 = parseInt(this.result);
