@@ -6,7 +6,7 @@
     </v-app>
 </template>
 <script>
-    export default{
-        name:"StaticForm"
-    }
+export default {
+    name:'KalkulatorLayout'
+}
 </script>

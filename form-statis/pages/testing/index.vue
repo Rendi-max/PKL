@@ -42,10 +42,10 @@
                     <div class="">
                         <label for="">Kelas Siswa<span class="red--text">*</span></label>
                         <v-autocomplete
+                        v-model="Class"
                         required
                         :rules="classRules"
                         outlined
-                        v-model="Class"
                         :items="items"
                         name="Class"
                         >
@@ -105,11 +105,12 @@
         </v-form>
         </v-card>
 
-        <v-card elevation="2"
+        <v-card 
+        v-if="submits"
+        elevation="2"
         class="mx-auto my-16 pa-10 px-16"
         width="70%"
         height="400"
-        v-if="submits"
         >
         <h class="text-h5 font-weight-bold text-decoration-underline">Berhasil Menginput Data Siswa</h>
         <v-row>
@@ -134,7 +135,7 @@
 </template>
 <script>
 export default {
-    name:"testingIndex",
+    name:"TestingIndex",
     layout:'staticForm',
     data:() =>({
         valid:true,
