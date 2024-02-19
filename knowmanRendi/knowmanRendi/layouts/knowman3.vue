@@ -6,13 +6,15 @@
         elevation ="0"
         
         >
-                <v-img :src="require('~/assets/00c.png')" max-height="60"
+                <NuxtLink to="knowman">
+                    <v-img :src="require('~/assets/00c.png')" max-height="60"
                     max-width="130"> </v-img>
+                </NuxtLink>
                 <v-spacer />
-                <nuxt-link to="/taksonomi" class="grey--text font-weight-bold text-decoration-none">Taksonomi</nuxt-link>
-                <nuxt-link to="/forum" class="grey--text mx-4 font-weight-bold text-decoration-none">Forum</nuxt-link>
-                <nuxt-link to="/faq" class="grey--text me-4 font-weight-bold text-decoration-none">FAQ</nuxt-link>
-                <nuxt-link to="/login" >
+                <nuxt-link active-class="black--text" to="/taksonomi" class="grey--text font-weight-bold text-decoration-none">Taksonomi</nuxt-link>
+                <nuxt-link active-class="black--text" to="/forum" class="grey--text mx-4 font-weight-bold text-decoration-none">Forum</nuxt-link>
+                <nuxt-link active-class="black--text" to="/faq" class="grey--text me-4 font-weight-bold text-decoration-none">FAQ</nuxt-link>
+                <nuxt-link active-class="black--text" to="/login" >
                     <v-btn
                     elevation="2"
                     outlined

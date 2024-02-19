@@ -68,7 +68,7 @@
                 <h3 class="blue-grey--text font-weight-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, porro.</h3>
                 <p class="subtitle-2 grey--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur recusandae, at fugit minus ab accusamus nemo doloribus saepe corporis quibusdam.</p>
                 <div class="d-flex">
-                    <p class="caption grey--text">Frina, 1 jam lalu</p>
+                    <p class="caption grey--text">Jefrine, 1 jam lalu</p>
                     <v-spacer />
                     <p class="caption grey--text mx-1"><v-icon>mdi-unfold-more-vertical</v-icon></p>
                     <p class="caption grey--text mx-1">2.500</p>
