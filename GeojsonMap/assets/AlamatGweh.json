@@ -1,0 +1,24 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "Name": "Rendi Firman Syah",
+          "Phone": "085870603466",
+          "Alamat": "Adipasir RT07/RW02, Rakit, Banjarnegara",
+          "marker-color": "#1100ff",
+          "marker-size": "medium",
+          "marker-symbol": "circle-stroked"
+        },
+        "geometry": {
+          "coordinates": [
+            109.54187391692375,
+            -7.431696171576348
+          ],
+          "type": "Point"
+        },
+        "id": 0
+      }
+    ]
+  }

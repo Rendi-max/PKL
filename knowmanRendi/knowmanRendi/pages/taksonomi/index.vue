@@ -13,11 +13,11 @@
                 solo
                 outlined
                 max-height="200"
-                class=""
+                class="rounded-lg"
                 placeholder="Search..."
                 append-icon="mdi-magnify"
                 height="75"
-                style="border-radius: 20px;"
+                
                 >   
                 </v-text-field> 
             </NuxtLink>
