@@ -14,9 +14,10 @@ return new class extends Migration
         Schema::create('link_clickeds', function (Blueprint $table) {
             $table->id();
             $table->bigInteger('link_id')->unsigned();
-            $table->foreign('link_id')->references('id')->on('links')->cascadeOnUpdate();
+            $table->foreign('link_id')->references('id')->on('links')->cascadeOnUpdate()->cascadeOnDelete();
             $table->bigInteger('user_id')->unsigned()->nullable();
-            $table->foreign('user_id')->references('id')->on('users')->cascadeOnUpdate();
+            $table->foreign('user_id')->references('id')->on('users')->cascadeOnUpdate()->cascadeOnDelete();
+            $table->string('ip');
             $table->timestamps();
         });
     }

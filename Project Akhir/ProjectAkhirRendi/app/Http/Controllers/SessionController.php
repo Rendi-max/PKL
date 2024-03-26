@@ -31,6 +31,7 @@ class SessionController extends Controller
                 {
                     $request->session()->regenerate();
                     $request->session()->regenerateToken();
+                    CreateLog::createLogActivity("Login");
                     return redirect('/dashboardUser');
                 }
             }
@@ -44,7 +45,7 @@ class SessionController extends Controller
         }
         else
         {
-            return back();
+            return back()->with('error', "User doesn't exist or email and password doesn't match");
         }
     }
     public function indexRegister()
@@ -73,21 +74,21 @@ class SessionController extends Controller
             $user->password = Hash::make($request->password);
             $user->save();            
             Auth::login($user);
+            CreateLog::createLogActivity("Login");
             return back();
         }else
         {
-            return back()->with('error', 'Password and password confirmation doesnt match!');
+            return back()->with('error', "Password and password confirmation doesn't match!");
         }
     }
     public function Logout(Request $request)
     {
-        $user = User::find(Auth::id());
-        if($user->isAdmin == 1) CreateLog::createLogActivity("Logout");
+        CreateLog::createLogActivity("Logout");
         
         Auth::logout();
         $request->session()->invalidate();
         $request->session()->regenerateToken();
 
-        return redirect()->guest('/login');
+        return redirect('/');
     }
 }

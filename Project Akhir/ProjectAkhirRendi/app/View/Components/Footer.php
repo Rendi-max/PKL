@@ -5,9 +5,10 @@
     
     class Footer extends Component
     {
-        public function __construct()
+        public $background;
+        public function __construct($background)
         {
-            
+            $this->background = $background;   
         }
 
         public function render(){

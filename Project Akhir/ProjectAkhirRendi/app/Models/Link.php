@@ -16,4 +16,9 @@ class Link extends Model
     public function user(){
         return $this->belongsTo(User::class, 'user_id', 'id');
     }
+
+    protected $hidden = [
+        'id',
+        'user_id'
+    ];
 }

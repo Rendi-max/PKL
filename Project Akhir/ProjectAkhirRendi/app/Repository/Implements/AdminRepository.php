@@ -26,15 +26,16 @@ use App\Repository\Task\TaskRepository;
         public function updateTask(Request $request, string $id){
 
                 $checkEmail = User::where('id', $id)->value('email');
-                $user = User::find($id);
-                if($request->email == $checkEmail){
+                $checkUserRegistred = User::where('id','!=', $id)->where('email', $request->email)->first();
+                if( $checkUserRegistred == null ){
+                    $user = User::find($id);
                     $user->name     = $request->name;
                     $user->email    = $request->email;
                     $user->password = ($request->password != null) ? Hash::make($request->password) : $user->password;
                     $user->isAdmin  = 1;
                     $user->save();
                     
-                    CreateLog::createLogActivity("Updated user ".$user->email." data");
+                    CreateLog::createLogActivity("Updated user ".$user->name." data");
                     return;
                 }else
                 {

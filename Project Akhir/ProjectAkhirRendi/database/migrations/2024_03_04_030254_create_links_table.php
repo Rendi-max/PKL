@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->bigInteger('user_id')->unsigned()->nullable();
             $table->foreign('user_id')->references('id')->on('users')->cascadeOnUpdate();
-            $table->string('short_link')->unique();
+            $table->string('short_link');
             $table->string('original_link');
             $table->string('password')->nullable();
             $table->timestamp('expired_at')->nullable();

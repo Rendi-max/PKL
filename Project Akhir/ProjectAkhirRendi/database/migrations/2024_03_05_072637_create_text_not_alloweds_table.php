@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('text_not_alloweds', function (Blueprint $table) {
             $table->id();
-            $table->string('text');
+            $table->string('text')->unique();
             $table->timestamps();
         });
     }
