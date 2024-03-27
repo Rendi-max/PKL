@@ -9,7 +9,9 @@
             @endif
             <div class="flex justify-end space-x-2">
                 <a href="/exportuser" class="px-4 py-2 font-bold text-white rounded-lg bg-green-500">Export Excel</a>
+                @if ($user->id == 1)
                 <a href="{{ route('usersManagement.index') }}" class="bg-gradient-to-br from-gray-400 to-gray-700 shadow-xl backdrop-blur shadow-gray-800 py-1 px-4 text-white rounded-lg font-bold hover:bg-gradient-to-r py-2">Add Admin</a>
+                @endif
             </div>
             <h1 class="text-2xl sm:text-3xl font-extrabold text-center border-b-2">User Data</h1>
             <div class="realtive overflow-x-auto min-h-[500px]">
@@ -37,8 +39,12 @@
                                     <td class="sm:py-1 px-6 border-r">{{ ($users->isAdmin == 1) ? 'Yes' : 'No' }}</td>
                                     <td class="flex justify-center space-x-1 sm:py-1 px-6">
                                         @if ($users->isAdmin == 1)
-                                            <x-edit route="usersManagement.show" id="{{ $users->email }}"/>
-                                            <x-delete route="usersManagement.destroy" id="{{ $users->id }}" message="{{ $users->email }}" background="bg-gradient-to-br from-gray-700 to-gray-800 rounded-xl"/>
+                                            @if ($users->id == $user->id || $user->id == 1)
+                                                <x-edit route="usersManagement.show" id="{{ $users->email }}"/>
+                                                <x-delete route="usersManagement.destroy" id="{{ $users->id }}" message="{{ $users->email }}" background="bg-gradient-to-br from-gray-700 to-gray-800 rounded-xl"/>
+                                            @else
+                                                None
+                                            @endif
                                         @else
                                             <a href="change/{{ $users->id }}" class="{{ ($users->status == "is Active") ? 'bg-red-500 border-red-400 hover:bg-red-600 px-7' : 'bg-green-500 border-green-400 hover:bg-green-600' }} text-white font-bold px-5 py-1 rounded-lg border-2">{{ ($users->status == "is Active") ? 'Ban' : 'Active' }}</a>
                                         @endif

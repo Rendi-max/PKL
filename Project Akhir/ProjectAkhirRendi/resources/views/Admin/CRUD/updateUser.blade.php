@@ -16,7 +16,6 @@
         </div>
         @endif
 
-        @foreach ($data as $users)
         <div class="py-5 font-sans">
             <h1 class="text-2xl sm:text-3xl font-extrabold text-center px-5 border-b-2">Edit Admin</h1>
             <form action="{{ route('usersManagement.update', $users->id) }}" method="post">
@@ -58,6 +57,5 @@
                 </div>
             </form>
         </div>
-        @endforeach
     </div>
 @endsection

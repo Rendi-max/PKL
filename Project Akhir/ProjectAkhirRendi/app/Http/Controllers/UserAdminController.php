@@ -76,7 +76,7 @@ class UserAdminController extends Controller
         return view('Admin.CRUD.updateUser', [
             'links'     => 'user',
             'user'      => $this->_auth(),
-            'data'      => User::where('email', $id)->get()
+            'users'      => User::where('email', $id)->first()
         ]);
     }
 
